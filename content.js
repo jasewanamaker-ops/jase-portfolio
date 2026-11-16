@@ -7,9 +7,9 @@
 window.PORTFOLIO = {
   contact: { phone: "(269) 330-7487", email: "u5jwx131@gmail.com", professionalUrl: "", professionalLabel: "Professional profile" },
   racing: {
-    title: "Boo Banger at Kilkare", event: "Boo Banger at Kilkare", date: "", role: "",
+    title: "Boo Banger at Kilkare", event: "Boo Banger at Kilkare", date: "October 3rd, 2026", role: "Announcer",
     mediaType: "video", mediaUrl: "assets/boo-banger-kilkare.mp4", poster: "assets/boo-banger-poster.jpg",
-    description: "", purpose: "", decisions: "", reflection: "", transcript: ""
+    description: "Jase announcing a pair at the 2026 Boo Banger. This video features a bracket race, a type of drag racing based on skill, most often called a chess match at 140 MPH. Bracket racing involves a staggered start, in which the objective is to have the best reaction time combined with the closest time to your predicted ET down to the 1/100th of a second.", purpose: "", decisions: "", reflection: "", transcript: ""
   },
   basketball: {
     title: "Basketball call", event: "", date: "", role: "",
