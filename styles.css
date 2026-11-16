@@ -29,3 +29,14 @@
 .back-to-choices{font-size:.7rem;padding:0;background:transparent;border-bottom:1px solid var(--muted);padding-bottom:5px}
 @media(max-width:850px){.sport-gateway{padding:125px 5vw 25px}.gateway-intro{margin-bottom:28px}.gateway-choices{min-height:420px;gap:14px}.gateway-choice{padding:22px 16px}.choice-title{flex-direction:column;align-items:start;gap:22px;margin:50px 0 30px}.choice-title h2{font-size:clamp(1.5rem,4.7vw,3.6rem)}.choice-number{font-size:.5rem}.choice-enter{font-size:.7rem}.gateway-note{line-height:1.7}}
 @media(max-width:540px){.gateway-choices{grid-template-columns:1fr;min-height:0}.gateway-choice{min-height:200px;padding:20px 24px}.choice-title{flex-direction:row;align-items:center;margin:25px 0}.choice-title h2{font-size:clamp(1.8rem,8.5vw,3rem)}.choice-number{font-size:.55rem}.choice-enter{padding-top:13px}.gateway-intro h1{font-size:clamp(2rem,8.3vw,3rem)}.gateway-intro{gap:13px}.gateway-note{margin-top:18px}}
+
+/* Give the full racing clip room to watch; venue photos remain separate evidence. */
+.racing .project-layout { grid-template-columns: 1fr; }
+.racing .listening { order: -1; }
+.racing #project-media video { max-height: 72vh; width: 100%; background: #000; }
+.racing .venue-lead { width: min(100%, 760px); margin-top: 35px; }
+.racing .second-venue { margin-top: 35px; }
+.racing #project-details { max-width: 760px; }
+@media (max-width: 850px) {
+  .racing #project-media video { max-height: none; }
+}

@@ -5,10 +5,10 @@
    A link opens the hosted recording; audio/video play directly on this site.
    Never put a YouTube page URL in an audio or video field. */
 window.PORTFOLIO = {
-  contact: { email: "", professionalUrl: "", professionalLabel: "Professional profile" },
+  contact: { phone: "(269) 330-7487", email: "u5jwx131@gmail.com", professionalUrl: "", professionalLabel: "Professional profile" },
   racing: {
-    title: "Racing call", event: "", date: "", role: "",
-    mediaType: "audio", mediaUrl: "", poster: "assets/us131.jpg",
+    title: "Boo Banger at Kilkare", event: "Boo Banger at Kilkare", date: "", role: "",
+    mediaType: "video", mediaUrl: "assets/boo-banger-kilkare.mp4", poster: "assets/boo-banger-poster.jpg",
     description: "", purpose: "", decisions: "", reflection: "", transcript: ""
   },
   basketball: {

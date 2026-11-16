@@ -88,7 +88,7 @@
       void document.body.offsetWidth; document.body.classList.add('scene-enter');
       document.querySelectorAll('[data-select]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.select === sport)));
       $('.edition').textContent = racing ? '01 / RACING' : '02 / BASKETBALL';
-      $('#scene-label').textContent = racing ? scenes[venue].label : 'Basketball · Play-by-play';
+      $('#scene-label').textContent = racing ? (item.event || scenes[venue].label) : 'Basketball · Play-by-play';
       $('#call-title').textContent = racing ? 'At the track.' : 'On the court.';
       $('#availability').textContent = item.mediaUrl ? item.title : (racing ? 'Racing call coming soon.' : 'Basketball call coming soon.');
       $('.pill').textContent = item.mediaUrl ? 'SELECTED RECORDING' : 'RECORDING PENDING';
@@ -146,7 +146,15 @@
   }
   if($('#contact-links')) {
     const contact = config.contact || {}, container = $('#contact-links');
-    if(contact.email || safeUrl(contact.professionalUrl)) container.replaceChildren();
+    if(contact.phone || contact.email || safeUrl(contact.professionalUrl)) container.replaceChildren();
+    if(contact.phone) {
+      const digits = contact.phone.replace(/[^0-9+]/g, '');
+      if(digits) {
+        const link = document.createElement('a');
+        link.href = 'tel:' + (digits.length === 10 ? '+1' + digits : digits);
+        link.textContent = contact.phone; container.append(link);
+      }
+    }
     if(contact.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.email)) {
       const link = document.createElement('a'); link.href = 'mailto:' + contact.email; link.textContent = contact.email; container.append(link);
     }

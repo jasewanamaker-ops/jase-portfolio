@@ -1,0 +1,28 @@
+CONTACT + BOO BANGER VIDEO UPDATE
+
+1. Unzip this package.
+2. Open your GitHub repository:
+   https://github.com/jasewanamaker-ops/jase-portfolio
+3. Click Add file > Upload files.
+4. Drag these FOUR files onto the upload page:
+   app.js
+   content.js
+   racing.html
+   styles.css
+5. Also drag the WHOLE assets folder from this update onto the upload page.
+   Keep the folder intact. It should upload as:
+   assets/boo-banger-kilkare.mp4
+   assets/boo-banger-poster.jpg
+6. Do not upload this instructions file or the ZIP itself.
+7. Click Commit changes and confirm. GitHub replaces the four matching files
+   and adds the two new media files. Your other files and photos stay intact.
+8. Give Pages a few minutes, then refresh your website.
+
+The video appears after selecting Racing, and on the Racing page.
+Contact details appear under Behind the mic > Contact.
+The video is compressed to MP4 for the web, with its full duration and audio.
+It does not autoplay. No added sound, commentary edits, or made-up project
+reflection is included. Captions/transcript and your project reflection can
+be added later.
+
+If the old version remains, hard-refresh with Command+Shift+R on Mac.
