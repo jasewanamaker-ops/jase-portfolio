@@ -1,0 +1,12 @@
+Keep this assets folder when uploading to GitHub.
+
+The two existing photographs were supplied by Jase:
+us131.jpg — U.S. 131 Motorsports Park (original IMG_5300.jpg)
+bristol.jpg — Bristol Dragway (original image.png)
+
+Add your MP3/MP4 recordings here, then edit content.js at the repository root.
+Example: mediaUrl: "assets/racing-call.mp3"
+
+See README.md for full instructions. Leave missing media paths empty rather
+than referencing files that do not exist. Photos are venue evidence, not
+proof of a particular recorded event.
